@@ -11,14 +11,15 @@
 - проектирование тестов (чек-лист) по требованиям к функциональности и вёрстке для экрана "Статус заказа" (Figma);
 - проектирование проверок на валидацию полей для экрана "Сделать заказ";
 - тестирование приложения по составленной документации (DevTools);
+- проверка новой фичи (Charles);
 - составление баг-репортов для найденных багов (YouTrack).
 
 ### **Документация (результаты тестирования)**
 
-- [Чек-лист на экран "Статус заказа"](https://docs.google.com/spreadsheets/d/1r_g9GEPryEyIiWzZmxWlW9Ndx18AKa8WklEIvwCCEX0/edit?usp=sharing)
-- [Баг-репорты в YouTrack (экран "Статус заказа")](https://igorpolyakov.youtrack.cloud/issues/52E?q=%D1%82%D0%B5%D0%B3:%20%7B%D0%92%D0%B5%D0%B1-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81.%D0%A1%D0%B0%D0%BC%D0%BE%D0%BA%D0%B0%D1%82%7D)
-- [Данные валидации для экрана "Сделать заказ"](https://docs.google.com/spreadsheets/d/1dQSZW9FFctmetN9bqoHkvY7F34NET9VMi__Ege9F3Ck/edit?usp=sharing)
-- [Баг-репорты в YouTrack (экран "Сделать заказ")](https://igorpolyakov.youtrack.cloud/issues?q=%D1%82%D0%B5%D0%B3:%20%7B%D0%92%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%86%D0%B8%D1%8F%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81.%D0%A1%D0%B0%D0%BC%D0%BE%D0%BA%D0%B0%D1%82%7D)
+- [Чек-лист на экран "Статус заказа"][1]
+- [Баг-репорты в YouTrack (экран "Статус заказа")][2]
+- [Данные валидации для экрана "Сделать заказ"][3]
+- [Баг-репорты в YouTrack (экран "Сделать заказ")][4]
 
 ## 2. Тестирование мобильного приложения Яндекс.Самокат
 
@@ -26,51 +27,36 @@
 
 - изучение и анализ требований к мобильному приложению;
 - проектирование тестов (тест-кейсы) по требованиям к функциональности (нотификация, отсутствие интернет-соединения) и вёрстке (Figma);
+- тестирование мобильного приложения по составленной документации (Android Studio);
 - составление баг-репортов для найденных багов (YouTrack).
 
 ### **Документация (результаты тестирования)**
 
-- [Тест-кейсы для мобильного приложения](https://docs.google.com/spreadsheets/d/1VbUW7CCr4m0cpEUyiDhaNBjNc8IQrCv2ki1btNVl76k/edit?usp=sharing)
-- [Баг-репорты в YouTrack](https://igorpolyakov.youtrack.cloud/issues/52E?q=%D1%82%D0%B5%D0%B3:%20%7B%D0%9C%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81.%D0%A1%D0%B0%D0%BC%D0%BE%D0%BA%D0%B0%D1%82%7D)
+- [Тест-кейсы для мобильного приложения][5]
+- [Баг-репорты в YouTrack][6]
 
+## 3. Тестирование API Яндекс.Самокат
 
+### **Задачи на тестирование**
 
+- изучение и анализ требований к бэкенду и документации к API;
+- проектирование тестов (чек-лист) по указанным требованиям;
+- тестирование API по составленной документации (Postman);
+- работа с базой данных (PostgreSQL);
+- составление баг-репортов для найденных багов (YouTrack).
 
+### **Документация (результаты тестирования)**
 
+- [Чек-лист API Яндекс.Самокат][7]
+- [Баг-репорты в YouTrack][8]
 
+---
 
-## Объекты тестирования
-
-**&#128421; Чек-лист веб-приложения**
-
-- изучение требований к функциональности формы заказа и их визуализация Mindmap;
-
-
-
-- проверка в поддерживаемых окружениях;
-
-- составлении таблицы валидации полей для оформлении заказа и их оптимизация;
-
-- проведено тестирование всей функциональност по остальным макетам и требованиям;
-
-- проверка новой фичи с помощью инструмента Charles Proxy.
-___
-
-**&#128241;Тест-кейс мобильного приложения для курьеров**
-
-- изучение требований к мобильному приложению;
-
-- составление тест-кейсов для функциональсноти и верстки;
-
-- для проверки мобильного приложения с помощью инстурмента Android Studio.
-
-___
-**&#127760; API**
-
-- изучение требований к бэкенду приложения и документации к API приложения;
-
-- cоставление чек-листа API согласоно требованиям;
-
-- проверка API c помощью инструмента Postman;
-
-- работа с БД PostgreSQL.
+[1]: https://docs.google.com/spreadsheets/d/1r_g9GEPryEyIiWzZmxWlW9Ndx18AKa8WklEIvwCCEX0/edit?usp=sharing
+[2]: https://igorpolyakov.youtrack.cloud/issues/52E?q=%D1%82%D0%B5%D0%B3:%20%7B%D0%92%D0%B5%D0%B1-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81.%D0%A1%D0%B0%D0%BC%D0%BE%D0%BA%D0%B0%D1%82%7D
+[3]: https://docs.google.com/spreadsheets/d/1dQSZW9FFctmetN9bqoHkvY7F34NET9VMi__Ege9F3Ck/edit?usp=sharing
+[4]: https://igorpolyakov.youtrack.cloud/issues?q=%D1%82%D0%B5%D0%B3:%20%7B%D0%92%D0%B0%D0%BB%D0%B8%D0%B4%D0%B0%D1%86%D0%B8%D1%8F%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81.%D0%A1%D0%B0%D0%BC%D0%BE%D0%BA%D0%B0%D1%82%7D
+[5]: https://docs.google.com/spreadsheets/d/1VbUW7CCr4m0cpEUyiDhaNBjNc8IQrCv2ki1btNVl76k/edit?usp=sharing
+[6]: https://igorpolyakov.youtrack.cloud/issues/52E?q=%D1%82%D0%B5%D0%B3:%20%7B%D0%9C%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81.%D0%A1%D0%B0%D0%BC%D0%BE%D0%BA%D0%B0%D1%82%7D
+[7]: https://docs.google.com/spreadsheets/d/1NzIUI-EcCuSz4D_ukfWv1GDHnzqnqW30j9E3ya1dAiE/edit?usp=sharing
+[8]: https://igorpolyakov.youtrack.cloud/issues?q=%D1%82%D0%B5%D0%B3:%20%7BAPI%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81.%D0%A1%D0%B0%D0%BC%D0%BE%D0%BA%D0%B0%D1%82%7D
